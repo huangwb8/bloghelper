@@ -37,7 +37,7 @@ class MetingJSElement extends HTMLElement {
     }
     this.config = config
 
-	// https://api.i-meto.com/meting/api?server=:server&type=:type&id=:id&r=:r
+	// https://api.i-meto.com/meting/api?server=:server&type=:type&id=:id&r=:r 这是原版api地址
     this.api = this.meta.api || window.meting_api || 'https://fastly.jsdelivr.net/gh/huangwb8/bloghelper@latest/js/Aplayer/main_example.json'
     if (this.meta.auto) this._parse_link()
   }
