@@ -92,8 +92,8 @@
     i.prototype = {
         createEl: function(a, b) {
             this.el = document.createElement("img");
-            /* this.el.setAttribute("src", b + "https://api.dujin.org/js/xiaxue/" + Math.floor(Math.random() * 4) + ".gif"); 注意修改为四个雪花文件所在的目录地址 */
-			this.el.setAttribute("src", b + "https://fastly.jsdelivr.net/gh/huangwb8/bloghelper@latest/js/xiaxue/" + Math.floor(Math.random() * 4) + ".gif"); /* 注意修改为四个雪花文件所在的目录地址 */
+            this.el.setAttribute("src", b + "https://api.dujin.org/js/xiaxue/" + Math.floor(Math.random() * 4) + ".gif"); /* 注意修改为四个雪花文件所在的目录地址 */
+			/* this.el.setAttribute("src", b + "https://fastly.jsdelivr.net/gh/huangwb8/bloghelper@latest/js/xiaxue/" + Math.floor(Math.random() * 4) + ".gif"); 注意修改为四个雪花文件所在的目录地址 */
             this.el.style.position = "absolute";
             this.el.style.display = "block";
             this.el.style.zIndex = "99999";
