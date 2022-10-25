@@ -40,6 +40,6 @@ https://fastly.jsdelivr.net/gh/huangwb8/bloghelper@latest/images/XXX.webp
 
 > https://space.bilibili.com/395406879
 
-这位小姐姐的视频一般在15s以内，剪辑密度很高，很适合用来当动态壁纸！
+这位小姐姐的视频一般在15s以内，剪辑密度很高，很适合用来当动态壁纸！大家可以多多关注她！
 
 + **yuer_01_01/02.mp4**: [约尔这一脚 一下子就踢到了我的心 巴...！](https://www.bilibili.com/video/BV1fZ4y147Ry)
