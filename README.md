@@ -4,7 +4,7 @@
 - [Usage](#Usage)
   - [Javascript](#Javascript)
   - [Images](#Images)
-- [Animation source](#Animation source)
+- [Animation source](#Animation-source)
   - [喜雨虫](#喜雨虫)
   - [贝勒儿](#贝勒儿)
 
