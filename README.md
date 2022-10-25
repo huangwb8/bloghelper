@@ -18,3 +18,16 @@ Here are examples for how to use the resources in `bloghelper`
 https://fastly.jsdelivr.net/gh/huangwb8/bloghelper@latest/images/XXX.webp
 ```
 
+# Animation source
+
+> All annimations are stored in `./images`. Source: Bilibili
+
+## 喜雨虫
+
+> [https://space.bilibili.com/350013717](https://space.bilibili.com/350013717)
+
+## 贝勒儿_
+
+> https://space.bilibili.com/395406879
+
++ **yuer_01_01/02.mp4**: [约尔这一脚 一下子就踢到了我的心 巴...！](https://www.bilibili.com/video/BV1fZ4y147Ry)
