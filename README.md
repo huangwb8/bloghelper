@@ -1,3 +1,13 @@
+# Table of Contents
+
+- [Introduction](#Introduction)
+- [Usage](#Usage)
+  - [Javascript](#Javascript)
+  - [Images](#Images)
+- [Animation source](#Animation source)
+  - [喜雨虫](#喜雨虫)
+  - [贝勒儿](#贝勒儿)
+
 # Introduction
 
 The project `bloghelper` is for the collection of resources that are useful for WordPress decoration.
@@ -26,7 +36,7 @@ https://fastly.jsdelivr.net/gh/huangwb8/bloghelper@latest/images/XXX.webp
 
 > [https://space.bilibili.com/350013717](https://space.bilibili.com/350013717)
 
-## 贝勒儿_
+## 贝勒儿
 
 > https://space.bilibili.com/395406879
 
