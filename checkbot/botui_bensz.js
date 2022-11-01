@@ -53,7 +53,7 @@ botui.message.bot({
     if (res.value == "gg") {
         return botui.message.bot({
             delay: 1500,
-            content: "![告辞](https://chevereto.hwb0307.com/images/2022/10/16/wallhaven-85x3v2.md.jpg)"
+            content: "多情总被无情伤... ![告辞](https://chevereto.hwb0307.com/images/2022/10/16/wallhaven-85x3v2.md.jpg)"
         })
     }
 });
