@@ -27,18 +27,18 @@ botui.message.bot({
 }).then(function() {
     return botui.message.bot({
         delay: 1000,
-        content: "这里是 Bensz"
+        content: "我是Bensz，可以叫我苯苯！"
     })
 }).then(function() {
     return botui.message.bot({
         delay: 1000,
-        content: "一个热爱技术的蓝孩子~"
+        content: "是一个每天在镜子前给自己磕头的硬核...咳咳！"
     })
 }).then(function() {
     return botui.action.button({
         delay: 1500,
         action: [{
-            text: "然后呢？ 😃",
+            text: "牛逼呀！ 😃",
             value: "and"
         },
         {
@@ -53,7 +53,7 @@ botui.message.bot({
     if (res.value == "gg") {
         return botui.message.bot({
             delay: 1500,
-            content: "多情总被无情伤... ![告辞](https://chevereto.hwb0307.com/images/2022/10/16/wallhaven-85x3v2.md.jpg)"
+            content: "多情总被无情伤，溜了溜了... ![告辞](https://chevereto.hwb0307.com/images/2022/10/16/wallhaven-85x3v2.md.jpg)"
         })
     }
 });
@@ -65,22 +65,22 @@ var other = function() {
     }).then(function() {
         return botui.message.bot({
             delay: 1500,
-            content: "喜欢唱、跳、rap、蓝球！"
+            content: "喜欢折腾新事物和思考人生 ㄟ(▔,▔)ㄏ "
         })
     }).then(function() {
         return botui.message.bot({
             delay: 1500,
-            content: "略懂Linux/HTML/CSS/JavaScript/Java，专攻R/Python"
+            content: "略懂Linux/HTML/CSS/JavaScript/Python，专攻R"
         })
     }).then(function() {
         return botui.message.bot({
             delay: 1500,
-            content: "主要工作方向：生物信息学"
+            content: "主要工作方向：肿瘤学与生物信息学"
         })
     }).then(function() {
         return botui.message.bot({
             delay: 1500,
-            content: "喜欢折腾，热爱折腾，目前正在计算机一道上探索中"
+            content: "目前正在生物医学的道路上艰难求索..."
         })
     }).then(function() {
         return botui.action.button({
@@ -93,7 +93,7 @@ var other = function() {
     }).then(function(res) {
         return botui.message.bot({
             delay: 1500,
-            content: "因为在《龙之谷》游戏中我叫‘苯神仔’，所以就沿用了下来(～￣▽￣)～ "
+            content: "很久以前，在游戏《龙之谷》中我以“苯神仔”为名自居，所以就沿用了下来(～￣▽￣)～ "
         })
     }).then(function() {
         return botui.action.button({
@@ -106,12 +106,43 @@ var other = function() {
     }).then(function(res) {
         return botui.message.bot({
             delay: 1500,
-            content: "最初是在NAS中安装的，所以以blognas开头"
+            content: "最初是在NAS中安装的，所以以blognas开头。历史遗留问题。"
+        })
+    }).then(function() {
+        return botui.action.button({
+            delay: 1500,
+            action: [{
+                text: "您未来有什么计划吗？",
+                value: "next"
+            }]
         })
     }).then(function(res) {
         return botui.message.bot({
             delay: 1500,
-            content: "那么，仔细看看我的博客吧？ ^_^"
+            content: "更多地关注时事、前沿和技术。"
+        })
+    }).then(function(res) {
+        return botui.message.bot({
+            delay: 1500,
+            content: "更加爱家人、爱世界！"
+        })
+    }).then(function() {
+        return botui.action.button({
+            delay: 1500,
+            action: [{
+                text: "如何支持您的工作呢？妈妈教育我不能白嫖...",
+                value: "next"
+            }]
+        })
+    }).then(function(res) {
+        return botui.message.bot({
+            delay: 1500,
+            content: "常来看看就是我最大的荣幸！"
+        })
+    }).then(function(res) {
+        return botui.message.bot({
+            delay: 1500,
+            content: "欢迎[捐赠鼓励](https://blognas.hwb0307.com/thankyou/) (～￣▽￣)～ "
         })
     });
 }
