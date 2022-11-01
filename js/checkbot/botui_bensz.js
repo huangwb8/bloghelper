@@ -27,7 +27,7 @@ botui.message.bot({
 }).then(function() {
     return botui.message.bot({
         delay: 1000,
-        content: "这里是 kelecn"
+        content: "这里是 Bensz"
     })
 }).then(function() {
     return botui.message.bot({
@@ -53,7 +53,7 @@ botui.message.bot({
     if (res.value == "gg") {
         return botui.message.bot({
             delay: 1500,
-            content: "![告辞](https://ss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=1901389031,3540709863&fm=26&gp=0.jpg)"
+            content: "![告辞](https://chevereto.hwb0307.com/images/2022/10/16/wallhaven-85x3v2.md.jpg)"
         })
     }
 });
@@ -61,21 +61,21 @@ botui.message.bot({
 var other = function() {
     botui.message.bot({
         delay: 1500,
-        content: "😘"
+        content: "😘😘😘"
     }).then(function() {
         return botui.message.bot({
             delay: 1500,
-            content: "主修的电子信息科学与技术专业，是个即将毕业的大四狗"
+            content: "喜欢唱、跳、rap、蓝球！"
         })
     }).then(function() {
         return botui.message.bot({
             delay: 1500,
-            content: "略懂HTML/CSS/JavaScript/Java，专攻C/C++/Python"
+            content: "略懂Linux/HTML/CSS/JavaScript/Java，专攻R/Python"
         })
     }).then(function() {
         return botui.message.bot({
             delay: 1500,
-            content: "主要工作方向：嵌入式、物联网、嵌入式"
+            content: "主要工作方向：生物信息学"
         })
     }).then(function() {
         return botui.message.bot({
@@ -86,14 +86,14 @@ var other = function() {
         return botui.action.button({
             delay: 1500,
             action: [{
-                text: "为什么叫 kelecn 呢？ 🤔",
+                text: "为什么叫 Bensz 呢？ 🤔",
                 value: "next"
             }]
         })
     }).then(function(res) {
         return botui.message.bot({
             delay: 1500,
-            content: "因为很喜欢《刺客伍六七》里可乐这个角色，于是我就沿用了下来，嗯！"
+            content: "因为在《龙之谷》游戏中我叫‘苯神仔’，所以就沿用了下来(～￣▽￣)～ "
         })
     }).then(function() {
         return botui.action.button({
@@ -106,7 +106,7 @@ var other = function() {
     }).then(function(res) {
         return botui.message.bot({
             delay: 1500,
-            content: "emmmmm，可乐_(:з」∠)_，至于cn嘛，中国国家域名2333"
+            content: "最初是在NAS中安装的，所以以blognas开头"
         })
     }).then(function(res) {
         return botui.message.bot({
