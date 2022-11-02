@@ -38,7 +38,7 @@
         })
     }).then(function(){
         // 限制递归的数量：
-        return resCircle(10)
+        return resCircle(3)
     });
     // .then(function() {
     //     return botui.action.button({
@@ -91,13 +91,19 @@
             }]
         }).then(function(res){
             if (res.value == "and") {
-                other()
+                botui.message.bot({
+                    delay: 1500,
+                    content: "😘😘😘"
+                }).then(function(){
+                    other()
+                })
             } else if (numCircle === 0) {
                 botui.message.bot({
                     delay: 1500,
                     content: "好了，不玩啦！你甚至不想称赞我一下...哎！"
-                })
-                other()
+                }).then(function(){
+                    other()
+                })  
             } else {
                 botui.message.bot({
                     delay: 1500,
@@ -112,14 +118,14 @@
     }
      
     var other = function() {
+        // botui.message.bot({
+        //     delay: 1500,
+        //     content: "😘😘😘"
+        // }).then(function() {
+        //     return 
         botui.message.bot({
-            delay: 1500,
-            content: "😘😘😘"
-        }).then(function() {
-            return botui.message.bot({
                 delay: 1500,
                 content: "喜欢折腾新事物和思考人生 ㄟ(▔,▔)ㄏ "
-            })
         }).then(function() {
             return botui.message.bot({
                 delay: 1500,
