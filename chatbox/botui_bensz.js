@@ -25,7 +25,7 @@ for(var s=a.css,u=a.type,l=a.enterClass,f=a.enterToClass,p=a.enterActiveClass,d=
 var botui = new BotUI("kelecnbot");
 botui.message.bot({
     delay: 200,
-    content: "Hi，小伙伴们👋👋👋 ![告辞](https://chevereto.hwb0307.com/images/2022/10/16/wallhaven-85x3v2.md.jpg)"
+    content: "Hi，小伙伴们👋👋👋"
 }).then(function() {
     return botui.message.bot({
         delay: 1000,
