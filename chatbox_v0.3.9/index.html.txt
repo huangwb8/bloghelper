@@ -1,0 +1,14 @@
+<link href="./chatbox_v0.3.9/botui-theme-default.css" rel="stylesheet">
+<script src="./chatbox_v0.3.9/botui.min.js"></script>
+<link href="./chatbox_v0.3.9/botui.min.css" rel="stylesheet">
+
+<!-- 因为vue和botui更新导至bug,现将对话移至js下的botui中配置 -->
+<div class="entry-content">
+<!-- rgba(242, 242, 242, 0.5) -->
+<div id="kelecnbot" class="popcontainer" style="min-height: 300px; padding: 2px 6px 4px; background-color: transparent; border-radius: 10px;"><bot-ui></bot-ui></div>
+</div>
+
+<script src="./chatbox_v0.3.9/botui.js"></script>
+<script>
+bot_ui_ini()
+</script>
