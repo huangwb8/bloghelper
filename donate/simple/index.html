@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+	<meta charset="UTF-8">
+	<title>Donate Bensz</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, maximum-scale=1.0, minimal-ui" /><!--禁止缩放-->
+	<link rel="stylesheet" href="style.css">
+	<script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-2.0.3.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/1.5.10/clipboard.min.js"></script>
+	<!-- clipboard.js 是 JS 复制文本的库 -->
+	<script src="script.js"></script>
+</head>
+<body>
+	<a id="github" href="https://github.com/huangwb8/" target="_blank" class="pos-f tr3" title="Github"></a>
+	<div id="DonateText" class="tr3">Sponsor</div>
+	<ul id="donateBox" class="list pos-f tr3">
+		<li id="AliPay">AliPay</li>
+		<li id="WeChat">WeChat</li>
+		<li id="BTC" data-footnote="感谢你温暖了四季！"><button id="BTCBn"  data-clipboard-target="#btc-key" alt="十分感谢！">Bitcoin</button></li>
+		<li id="BTC" data-footnote="爱你！"><button id="BTCBn"  data-clipboard-target="#btc-key" alt="十分感谢！">Bitcoin</button></li>
+	</ul>
+	<div id="QRBox" class="pos-f left-100">
+		<div id="MainBox"></div>
+	</div>
+	<!-- Bitcoin 账号 -->
+	<input id="btc-key" type="text" value="感谢支持！https://blognas.hwb0307.com/" readonly="readonly">
+</body>
+</html>
