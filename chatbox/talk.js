@@ -38,8 +38,8 @@ var resCircle = function(numCircle) {
 
    // 随机图链接
    var randPic = [
-       "https://fastly.jsdelivr.net/gh/huangwb8/bloghelper@latest/images/wallhaven-v9jp8m.webp",
-	   "https://fastly.jsdelivr.net/gh/huangwb8/bloghelper@latest/images/wallhaven-v9jp8m.webp"
+       "https://chevereto.hwb0307.com/images/2022/10/16/wallhaven-85x3v2.md.jpg",
+	   "https://chevereto.hwb0307.com/images/2022/10/16/wallhaven-85x3v2.md.jpg"
    ]; 
    var indexrandPic = Math.floor((Math.random()*randPic.length)); 
    var targetURL= randPic[indexrandPic];
@@ -214,7 +214,7 @@ var other = function() {
    }).then(function(res) {
        return botui.message.bot({
            delay: 1500,
-           content: '再次感谢！<br /><img src= "https://fastly.jsdelivr.net/gh/huangwb8/bloghelper@latest/images/wallhaven-v9jp8m.webp" width="500">'
+           content: '再次感谢！<br /><img src= "https://chevereto.hwb0307.com/images/2022/10/16/wallhaven-85x3v2.md.jpg" width="500">'
        })
    });
 }
