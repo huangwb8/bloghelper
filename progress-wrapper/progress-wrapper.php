@@ -39,7 +39,7 @@
             let progress = (((now - from) / (to - from + 1)) * 100).toFixed(7);
             let progressshort = (((now - from) / (to - from + 1)) * 100).toFixed(2);
             $("#yearprogress_progresstext").text(progressshort + "%");
-            // $("#yearprogress_progresstext_full").text(progress + "%");
+            $("#yearprogress_progresstext_full").text(progress + "%");
             $("#yearprogress_progressbar").css("width", progress + "%");
         }
         yearprogress_refresh();
