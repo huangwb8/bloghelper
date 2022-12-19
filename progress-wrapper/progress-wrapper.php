@@ -62,9 +62,9 @@
             transition: all 0.3s ease;
         }
 
-        #yearprogress_text_container:hover>span {
+        /* #yearprogress_text_container:hover>span {
             transform: translateY(-20px);
-        }
+        } */
     </style>
 </div>
 <!-- <div class="high01"><br></div> -->
