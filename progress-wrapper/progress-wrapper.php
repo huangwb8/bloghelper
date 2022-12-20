@@ -14,18 +14,18 @@
 <!-- 主体 -->
 <div class="high01"><br></div>
 <div class="card bg-white shadow-sm border-0">
-    <div class="progress-wrapper" style="padding: 0.8rem">
+<div class="progress-wrapper" style="padding: 0.8rem">
         <div class="progress-info">
             <div class="progress-label">
-                <span id="yearprogress_yearname" style="color: var(--color-border-on-foreground-deeper); background-color: rgba(var(--themecolor-rgbstr), 0.1)"></span>
+                <span id="yearprogress_yearname" style="color: var(--themecolor); background-color: rgba(var(--themecolor-rgbstr), 0.1); font-size: 1rem"></span>
             </div>
             <div id="yearprogress_text_container" class="progress-percentage">
-                <span id="yearprogress_progresstext" style="color: var(--color-border-on-foreground-deeper)"></span>
-                <!-- <span id="yearprogress_progresstext_full"></span> -->
+                <!-- <span id="yearprogress_progresstext" style="color: var(--themecolor); font-size: 1rem"></span> -->
+                <span id="yearprogress_progresstext_full" style="color: var(--themecolor); font-size: 1rem"></span>
             </div>
         </div>
         <div class="progress" style="background-color: #CE7777">
-            <div id="yearprogress_progressbar" class="progress-bar" style="background-color: var(--color-border-on-foreground-deeper)"></div>
+            <div id="yearprogress_progressbar" class="progress-bar" style="background-color: var(--themecolor)"></div>
             <!-- style="background-color: #CE7777" -->
         </div>
     </div>
