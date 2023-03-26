@@ -1,5 +1,6 @@
 ! chndomains_For_Adblock
 ! By Bensz; blog: https://blognas.hwb0307.com
+! Tutorial: https://blognas.hwb0307.com/nas/3892
 ! Reference: https://raw.githubusercontent.com/HMBSbige/Text_Translation/master/chndomains.txt; https://github.com/HMBSbige/get_cnip
 ! Used in the black list of the forgein ADGuard Home
 ! Create Date: 2023-03-26
