@@ -25,6 +25,7 @@
 \usepackage{fontspec} %字体包
 \usepackage{setspace}
 \usepackage{amsfonts} % 数学公式增强
+\usepackage{xeCJK} % 调整字间距
 
 
 %%%————————————————————————————————边距
@@ -79,6 +80,11 @@
 \newfontfamily\kaitichar{KaiTi}[AutoFakeBold] %定义楷体英文和数字。
 \NewDocumentCommand \templatefont   { } { \kaishu \kaitichar } %使用模板字体代替直接使用楷书。
 \setmainfont{Times New Roman}
+
+% 字距
+% \CJKsetecglue命令定义了CJK字符与其他字符之间的空白，不只限于数字字符，也适用于字母等其他非CJK字符。如果你想要更精细的控制，可能需要借助其它工具或者宏包。
+% \hskip0.15em plus0.05em minus 0.05em表示基础间距为0.15em，可增加至0.2em，也可减少至0.1em以便满足排版需求。
+\CJKsetecglue{\hskip 0.18em plus 0.02em minus 0.02em}
 
 
 %%%————————————————————————————————行距
