@@ -1,6 +1,8 @@
-.navbar {
-    display: none !important;
-}
-.content.has-text-centered {
-    display: none !important;
-}
+<style>
+	.navbar {
+		display: none !important;
+	}
+	.content.has-text-centered {
+		display: none !important;
+	}
+</style>
